@@ -27,7 +27,7 @@ import android.os.Handler;
 import android.os.ResultReceiver;
 import android.os.StrictMode;
 import android.provider.Settings;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -58,7 +58,7 @@ import com.google.android.gms.maps.model.VisibleRegion;
  * @author livin
  * 
  */
-public class LocationPickerActivity extends ActionBarActivity implements
+public class LocationPickerActivity extends AppCompatActivity implements
 		OnMapClickListener, OnMapLongClickListener {
 	Toolbar toolbar;
 	GoogleMap mMap;
