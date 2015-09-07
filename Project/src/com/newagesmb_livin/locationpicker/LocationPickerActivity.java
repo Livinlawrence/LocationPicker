@@ -411,7 +411,7 @@ public class LocationPickerActivity extends ActionBarActivity implements
 			if (progress_dialogue.isShowing()) {
 				progress_dialogue.dismiss();
 			}
-			if (jsonObj != null && !jsonObj.equals("")) {
+			if (jsonObj != null && !jsonObj.toString().equals("")) {
 				try {
 
 					String Status = jsonObj.getString("status");
